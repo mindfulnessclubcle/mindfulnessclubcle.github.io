@@ -4,25 +4,53 @@
 // ============================================================
 const EVENTS = [
   {
-    date: "2026-05-10",
-    title: "Weekly Morning Sit",
-    time: "8:00 AM – 9:00 AM",
-    location: "Cleveland Botanical Garden, Atrium Room",
-    description: "Begin your Saturday in stillness. We gather for a 30-minute guided breath meditation followed by open sharing. All levels welcome — no experience necessary. Just bring yourself."
+    date: "2026-05-05",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Tim. All levels welcome — no experience necessary. Just bring yourself."
   },
   {
-    date: "2026-05-17",
-    title: "Weekly Morning Sit",
-    time: "8:00 AM – 9:00 AM",
-    location: "Cleveland Botanical Garden, Atrium Room",
+    date: "2026-05-12",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Our regular weekly sit. This will be an Inspiration week, lead by Phena. Cushions and chairs available; bring a blanket if you like."
+  },
+  {
+    date: "2026-05-19",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Tim. All levels welcome — no experience necessary. Just bring yourself."
+  },
+  {
+    date: "2026-05-26",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Tim. All levels welcome — no experience necessary. Just bring yourself."
+  },
+  {
+    date: "2026-06-02",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Tim. All levels welcome — no experience necessary. Just bring yourself."
+  },
+  {
+    date: "2026-06-09",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
     description: "Our regular weekly sit. This session will focus on body-scan awareness. Cushions and chairs available; bring a blanket if you like."
   },
   {
-    date: "2026-05-24",
-    title: "Lakeside Mindful Walk",
-    time: "10:00 AM – 11:30 AM",
-    location: "Edgewater Park, Main Pavilion",
-    description: "A gentle walking meditation along the Lake Erie shoreline. We'll practice slow, deliberate steps and silent observation of nature. Meet at the main pavilion. Dress for the weather."
+    date: "2026-06-18",
+    title: "Spring Retreat",
+    time: "6:00 PM",
+    location: "TBA",
+    description: "6/18 - 6/21: Spend the weekend reconnecting with yourself amongst the warmth of community. We will engage in periods of sitting, walking, stretching, eating, and communing in silence over this week. This is an opportunity to explore the *quiet* and *space* that naturally arises once we eliminate distractions for our awareness."
   },
   {
     date: "2026-06-07",
