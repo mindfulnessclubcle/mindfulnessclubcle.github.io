@@ -1,125 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>In Our Community | Mindfulness Club Cleveland</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>In Our Community — Mindfulness Club Cleveland</title>
+  <meta name="description" content="Explore the community side of Mindfulness Club Cleveland — gatherings, shared practices, and member-led events." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
 </head>
 <body>
 
-    <!-- Header / Navigation -->
-    <header>
-        <nav>
-            <h1>Mindfulness Club Cleveland</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="community.html">In Our Community</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- ── Header ── -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">
+        <span class="logo-leaf">🌿</span>
+        Mindfulness Club Cleveland
+      </a>
+      <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-links" role="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="community.html">In Our Community</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>In Our Community</h2>
-        <p>Exploring connection, presence, and shared growth in Cleveland.</p>
+  <main>
+
+    <!-- ── Page Hero ── -->
+    <section class="page-hero">
+      <h1>In Our Community</h1>
+      <p class="subtitle">Connection, practice, and shared experience</p>
     </section>
 
-    <!-- Main Content -->
-    <main>
+    <!-- ── Main content ── -->
+    <section class="container">
 
-        <section>
-            <h2>What This Means</h2>
-            <p>
-                Our community is rooted in intentional presence and genuine connection. 
-                We believe mindfulness is not just an individual practice, but something 
-                that grows through shared experience.
-            </p>
-            <p>
-                Whether through conversation, silence, or creative expression, we aim to 
-                cultivate a space where people can show up as they are and feel supported.
-            </p>
-        </section>
+      <div class="about-grid fade-in">
 
-        <section>
-            <h2>How We Gather</h2>
-            <ul>
-                <li>Weekly mindfulness sits and reflections</li>
-                <li>Open discussions on awareness, purpose, and growth</li>
-                <li>Creative practices like music, journaling, and art</li>
-                <li>Community-based service and outreach</li>
+        <!-- LEFT COLUMN -->
+        <div class="about-text">
+          <h2>A breathing, living community</h2>
+          <p>
+            While our weekly sits are the foundation, much of our community lives in the connections that form around them. Practice doesn’t end when the bell rings — it continues in conversation, creativity, and everyday life.
+          </p>
+          <p>
+            Members of our community regularly host their own gatherings — from meditation sits to creative sessions to simple moments of connection. These offerings are informal, evolving, and open.
+          </p>
+
+          <h2 style="margin-top: 2.5rem;">How we show up</h2>
+          <p>
+            There is no single way to participate. Some come to sit quietly. Others come to connect, reflect, or create. All are welcome.
+          </p>
+          <p>
+            What matters most is presence — showing up as you are, and allowing others to do the same.
+          </p>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div>
+          <div class="about-panel fade-in">
+            <h3>Ways to Engage</h3>
+            <ul class="info-list">
+              <li>Join a weekly sit or discussion</li>
+              <li>Attend a member-hosted gathering</li>
+              <li>Connect one-on-one with others</li>
             </ul>
-        </section>
+          </div>
 
-	<section>
-    <h2>Events Hosted by Our Members</h2>
-    <p>These are ongoing offerings created and led by members of our community.</p>
-
-    <div class="community-events">
-
-        <!-- Event Card 1 -->
-        <div class="event-card">
-            <h3>Sunday Morning Sit</h3>
-            <p><strong>When:</strong> Sundays, 10:00 AM</p>
-            <p><strong>Where:</strong> Edgewater Park</p>
-            <p>
-                A quiet group meditation followed by optional reflection and conversation.
-                Open to all experience levels.
-            </p>
+          <div class="about-panel fade-in" style="margin-top: 1.5rem;">
+            <h3>Start an Offering</h3>
+            <ul class="info-list">
+              <li>Have an event you want to share?</li>
+              <li>Want to host a meditation or creative session?</li>
+              <li>Reach out — we’ll help you share it</li>
+            </ul>
+          </div>
         </div>
 
-        <!-- Event Card 2 -->
-        <div class="event-card">
-            <h3>Midweek Reset</h3>
-            <p><strong>When:</strong> Wednesdays, 7:00 PM</p>
-            <p><strong>Where:</strong> Tremont Area</p>
-            <p>
-                A guided mindfulness session to slow down, reconnect, and reset during the week.
-            </p>
-        </div>
+      </div>
 
-        <!-- Event Card 3 -->
-        <div class="event-card">
-            <h3>Monthly Creative Night</h3>
-            <p><strong>When:</strong> First Friday of each month</p>
-            <p><strong>Where:</strong> Rotating locations</p>
-            <p>
-                Music, journaling, art, and shared expression in a relaxed, supportive space.
-            </p>
-        </div>
+      <!-- ── Member Events Section ── -->
+      <div style="margin-top: 4rem;">
+        <p class="section-label">Member-hosted gatherings</p>
 
+        <div class="pillars">
+
+          <!-- Event Card -->
+          <div class="pillar fade-in">
+            <div class="pillar-icon">🕺🏼</div>
+            <h3>Ecstatic Dance</h3>
+            <p><strong>Monthly · Next Event: TBA 4:00 PM</strong></p>
+            <p>Saint Pauls Church</p>
+            <p>A free and non-judgmental space to express thru dance.</p>
+          </div>
+
+          <!-- Event Card -->
+          <div class="pillar fade-in" style="animation-delay: 0.1s">
+            <div class="pillar-icon">👨🏻‍🦰</div>
+            <h3>Men's Group</h3>
+            <p><strong>Second and Fourth Wednesdays · 7:00 PM</strong></p>
+            <p>Harbor and Bridge Community Center</p>
+            <p>A men's sharing circle. A space to be heard, and provide support. Not advice - just listening and support</p>
+          </div>
+
+          <!-- Event Card -->
+          <div class="pillar fade-in" style="animation-delay: 0.2s">
+            <div class="pillar-icon">🎶🍵</div>
+            <h3>Middle Wave Listening Group</h3>
+            <p><strong>Monthly - Next Event: Saturday 6/27 12:00 pm</strong></p>
+            <p>Evangeline & Co., 3228 Lorain Ave</p>
+            <p>High-quality white tea, fresh records, active listening and community building. Join us! Free. </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="site-logo">
+          <span class="logo-leaf">🌿</span>
+          MCC
+        </a>
+        <p>Practicing presence together in Northeast Ohio since 2021.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="community.html">In Our Community</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>
+          mindfulnessclubcle@gmail.com<br />
+          Cleveland, Ohio<br /><br />
+          <a href="#">Instagram</a> &nbsp;·&nbsp; <a href="#">Facebook</a>
+        </p>
+      </div>
     </div>
-</section>
-        <section>
-            <h2>Values We Practice</h2>
-            <ul>
-                <li><strong>Presence:</strong> Meeting each moment with awareness</li>
-                <li><strong>Openness:</strong> Welcoming diverse perspectives and experiences</li>
-                <li><strong>Care:</strong> Supporting one another with intention</li>
-                <li><strong>Curiosity:</strong> Exploring inner and outer worlds</li>
-            </ul>
-        </section>
+    <div class="footer-bottom">
+      &copy; 2026 Mindfulness Club Cleveland. Made with intention.
+    </div>
+  </footer>
 
-        <section>
-            <h2>Get Involved</h2>
-            <p>
-                Whether you're new to mindfulness or have an established practice, 
-                you're welcome here. Come to a session, bring a friend, or just 
-                reach out to connect.
-            </p>
-            <p>
-                <a href="events.html">View upcoming events →</a>
-            </p>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Mindfulness Club Cleveland</p>
-    </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
