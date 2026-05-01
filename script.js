@@ -22,28 +22,28 @@ const EVENTS = [
     title: "Weekly Sit",
     time: "7:00 PM – 8:30 PM",
     location: "Harbor and Bridge Community Center",
-    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Tim. All levels welcome — no experience necessary. Just bring yourself."
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Jenna. All levels welcome — no experience necessary. Just bring yourself."
   },
   {
     date: "2026-05-26",
     title: "Weekly Sit",
     time: "7:00 PM – 8:30 PM",
     location: "Harbor and Bridge Community Center",
-    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Tim. All levels welcome — no experience necessary. Just bring yourself."
+    description: "Our regular weekly sit. This will be an Inspiration week, lead by Tim. Cushions and chairs available; bring a blanket if you like."
   },
   {
     date: "2026-06-02",
     title: "Weekly Sit",
     time: "7:00 PM – 8:30 PM",
     location: "Harbor and Bridge Community Center",
-    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Tim. All levels welcome — no experience necessary. Just bring yourself."
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Jenna. All levels welcome — no experience necessary. Just bring yourself."
   },
   {
     date: "2026-06-09",
     title: "Weekly Sit",
     time: "7:00 PM – 8:30 PM",
     location: "Harbor and Bridge Community Center",
-    description: "Our regular weekly sit. This session will focus on body-scan awareness. Cushions and chairs available; bring a blanket if you like."
+    description: "Our regular weekly sit. This will be an Inspiration week, lead by Jake. Cushions and chairs available; bring a blanket if you like."
   },
   {
     date: "2026-06-18",
@@ -53,11 +53,46 @@ const EVENTS = [
     description: "6/18 - 6/21: Spend the weekend reconnecting with yourself amongst the warmth of community. We will engage in periods of sitting, walking, stretching, eating, and communing in silence over this week. This is an opportunity to explore the *quiet* and *space* that naturally arises once we eliminate distractions for our awareness."
   },
   {
-    date: "2026-06-07",
-    title: "Half-Day Retreat: Rooting & Renewal",
-    time: "9:00 AM – 1:00 PM",
-    location: "Squire's Castle, North Chagrin Reservation",
-    description: "A half-day immersion in the Chagrin Reservation. We'll practice sitting and walking meditation, journaling, and close with a group circle. Light snacks provided. Space is limited — please RSVP by email."
+    date: "2026-06-16",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by TJ. All levels welcome — no experience necessary. Just bring yourself."
+  },
+  {
+    date: "2026-06-23",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Our regular weekly sit. This will be an Inspiration week, lead by Jake. Cushions and chairs available; bring a blanket if you like."
+  },
+  {
+    date: "2026-06-30",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing, lead by Hollie. All levels welcome — no experience necessary. Just bring yourself."
+  },
+  {
+    date: "2026-07-07",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Our regular weekly sit. This will be an Inspiration week, lead by Jenna. Cushions and chairs available; bring a blanket if you like."
+  },
+  {
+    date: "2026-07-14",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Include a bit of stillness in your week. We gather for a 30-minute silent meditation followed by open sharing. All levels welcome — no experience necessary. Just bring yourself."
+  },
+  {
+    date: "2026-07-21",
+    title: "Weekly Sit",
+    time: "7:00 PM – 8:30 PM",
+    location: "Harbor and Bridge Community Center",
+    description: "Our regular weekly sit. This will be an Inspiration week, lead by Mike. Cushions and chairs available; bring a blanket if you like."
   }
 ];
 
